@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F073B25317E1564C007CEFA4 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F073B25217E1564C007CEFA4 /* fontello.ttf */; };
+		F0AD986B17E0457E00ABFE26 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0AD986A17E0457E00ABFE26 /* iconfont.ttf */; };
+		F0AD986D17E046CE00ABFE26 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0AD986C17E046CE00ABFE26 /* fontawesome-webfont.ttf */; };
+		F0AD987117E04C8600ABFE26 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0AD987017E04C8600ABFE26 /* KaushanScript-Regular.otf */; };
+		F0EEBEA817DF144D00B63A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EEBEA717DF144D00B63A30 /* UIKit.framework */; };
+		F0EEBEAA17DF144D00B63A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EEBEA917DF144D00B63A30 /* Foundation.framework */; };
+		F0EEBEAC17DF144D00B63A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EEBEAB17DF144D00B63A30 /* CoreGraphics.framework */; };
+		F0EEBEB217DF144D00B63A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEB017DF144D00B63A30 /* InfoPlist.strings */; };
+		F0EEBEB417DF144D00B63A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EEBEB317DF144D00B63A30 /* main.m */; };
+		F0EEBEB817DF144D00B63A30 /* ALIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EEBEB717DF144D00B63A30 /* ALIAppDelegate.m */; };
+		F0EEBEBA17DF144D00B63A30 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEB917DF144D00B63A30 /* Default.png */; };
+		F0EEBEBC17DF144D00B63A30 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEBB17DF144D00B63A30 /* Default@2x.png */; };
+		F0EEBEBE17DF144D00B63A30 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEBD17DF144D00B63A30 /* Default-568h@2x.png */; };
+		F0EEBEC117DF144D00B63A30 /* ALIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EEBEC017DF144D00B63A30 /* ALIViewController.m */; };
+		F0EEBEC417DF144D00B63A30 /* ALIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEC217DF144D00B63A30 /* ALIViewController.xib */; };
+		F0EEBECD17DF19FA00B63A30 /* uxiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBECA17DF15B000B63A30 /* uxiconfont.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F073B25217E1564C007CEFA4 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
+		F0AD986A17E0457E00ABFE26 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		F0AD986C17E046CE00ABFE26 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		F0AD987017E04C8600ABFE26 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		F0EEBEA417DF144D00B63A30 /* fontIconTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fontIconTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EEBEA717DF144D00B63A30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0EEBEA917DF144D00B63A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0EEBEAB17DF144D00B63A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0EEBEAF17DF144D00B63A30 /* fontIconTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fontIconTest-Info.plist"; sourceTree = "<group>"; };
+		F0EEBEB117DF144D00B63A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0EEBEB317DF144D00B63A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0EEBEB517DF144D00B63A30 /* fontIconTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fontIconTest-Prefix.pch"; sourceTree = "<group>"; };
+		F0EEBEB617DF144D00B63A30 /* ALIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIAppDelegate.h; sourceTree = "<group>"; };
+		F0EEBEB717DF144D00B63A30 /* ALIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIAppDelegate.m; sourceTree = "<group>"; };
+		F0EEBEB917DF144D00B63A30 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F0EEBEBB17DF144D00B63A30 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F0EEBEBD17DF144D00B63A30 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0EEBEBF17DF144D00B63A30 /* ALIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIViewController.h; sourceTree = "<group>"; };
+		F0EEBEC017DF144D00B63A30 /* ALIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIViewController.m; sourceTree = "<group>"; };
+		F0EEBEC317DF144D00B63A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALIViewController.xib; sourceTree = "<group>"; };
+		F0EEBECA17DF15B000B63A30 /* uxiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uxiconfont.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0EEBEA117DF144D00B63A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EEBEA817DF144D00B63A30 /* UIKit.framework in Frameworks */,
+				F0EEBEAA17DF144D00B63A30 /* Foundation.framework in Frameworks */,
+				F0EEBEAC17DF144D00B63A30 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0EEBE9B17DF144D00B63A30 = {
+			isa = PBXGroup;
+			children = (
+				F0EEBEAD17DF144D00B63A30 /* fontIconTest */,
+				F0EEBEA617DF144D00B63A30 /* Frameworks */,
+				F0EEBEA517DF144D00B63A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0EEBEA517DF144D00B63A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0EEBEA417DF144D00B63A30 /* fontIconTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0EEBEA617DF144D00B63A30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0EEBEA717DF144D00B63A30 /* UIKit.framework */,
+				F0EEBEA917DF144D00B63A30 /* Foundation.framework */,
+				F0EEBEAB17DF144D00B63A30 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EEBEAD17DF144D00B63A30 /* fontIconTest */ = {
+			isa = PBXGroup;
+			children = (
+				F0EEBEB617DF144D00B63A30 /* ALIAppDelegate.h */,
+				F0EEBEB717DF144D00B63A30 /* ALIAppDelegate.m */,
+				F0EEBEBF17DF144D00B63A30 /* ALIViewController.h */,
+				F0EEBEC017DF144D00B63A30 /* ALIViewController.m */,
+				F0EEBEC217DF144D00B63A30 /* ALIViewController.xib */,
+				F0EEBEAE17DF144D00B63A30 /* Supporting Files */,
+			);
+			path = fontIconTest;
+			sourceTree = "<group>";
+		};
+		F0EEBEAE17DF144D00B63A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD986C17E046CE00ABFE26 /* fontawesome-webfont.ttf */,
+				F0AD987017E04C8600ABFE26 /* KaushanScript-Regular.otf */,
+				F073B25217E1564C007CEFA4 /* fontello.ttf */,
+				F0EEBECA17DF15B000B63A30 /* uxiconfont.ttf */,
+				F0EEBEAF17DF144D00B63A30 /* fontIconTest-Info.plist */,
+				F0EEBEB017DF144D00B63A30 /* InfoPlist.strings */,
+				F0EEBEB317DF144D00B63A30 /* main.m */,
+				F0AD986A17E0457E00ABFE26 /* iconfont.ttf */,
+				F0EEBEB517DF144D00B63A30 /* fontIconTest-Prefix.pch */,
+				F0EEBEB917DF144D00B63A30 /* Default.png */,
+				F0EEBEBB17DF144D00B63A30 /* Default@2x.png */,
+				F0EEBEBD17DF144D00B63A30 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0EEBEA317DF144D00B63A30 /* fontIconTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EEBEC717DF144D00B63A30 /* Build configuration list for PBXNativeTarget "fontIconTest" */;
+			buildPhases = (
+				F0EEBEA017DF144D00B63A30 /* Sources */,
+				F0EEBEA117DF144D00B63A30 /* Frameworks */,
+				F0EEBEA217DF144D00B63A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fontIconTest;
+			productName = fontIconTest;
+			productReference = F0EEBEA417DF144D00B63A30 /* fontIconTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0EEBE9C17DF144D00B63A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALI;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "俞雨";
+			};
+			buildConfigurationList = F0EEBE9F17DF144D00B63A30 /* Build configuration list for PBXProject "fontIconTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0EEBE9B17DF144D00B63A30;
+			productRefGroup = F0EEBEA517DF144D00B63A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0EEBEA317DF144D00B63A30 /* fontIconTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0EEBEA217DF144D00B63A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EEBECD17DF19FA00B63A30 /* uxiconfont.ttf in Resources */,
+				F0EEBEB217DF144D00B63A30 /* InfoPlist.strings in Resources */,
+				F0AD986B17E0457E00ABFE26 /* iconfont.ttf in Resources */,
+				F0EEBEBA17DF144D00B63A30 /* Default.png in Resources */,
+				F0EEBEBC17DF144D00B63A30 /* Default@2x.png in Resources */,
+				F0EEBEBE17DF144D00B63A30 /* Default-568h@2x.png in Resources */,
+				F0EEBEC417DF144D00B63A30 /* ALIViewController.xib in Resources */,
+				F0AD986D17E046CE00ABFE26 /* fontawesome-webfont.ttf in Resources */,
+				F0AD987117E04C8600ABFE26 /* KaushanScript-Regular.otf in Resources */,
+				F073B25317E1564C007CEFA4 /* fontello.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0EEBEA017DF144D00B63A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EEBEB417DF144D00B63A30 /* main.m in Sources */,
+				F0EEBEB817DF144D00B63A30 /* ALIAppDelegate.m in Sources */,
+				F0EEBEC117DF144D00B63A30 /* ALIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0EEBEB017DF144D00B63A30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EEBEB117DF144D00B63A30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0EEBEC217DF144D00B63A30 /* ALIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EEBEC317DF144D00B63A30 /* en */,
+			);
+			name = ALIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0EEBEC517DF144D00B63A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0EEBEC617DF144D00B63A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0EEBEC817DF144D00B63A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fontIconTest/fontIconTest-Prefix.pch";
+				INFOPLIST_FILE = "fontIconTest/fontIconTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0EEBEC917DF144D00B63A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fontIconTest/fontIconTest-Prefix.pch";
+				INFOPLIST_FILE = "fontIconTest/fontIconTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EEBE9F17DF144D00B63A30 /* Build configuration list for PBXProject "fontIconTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EEBEC517DF144D00B63A30 /* Debug */,
+				F0EEBEC617DF144D00B63A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EEBEC717DF144D00B63A30 /* Build configuration list for PBXNativeTarget "fontIconTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EEBEC817DF144D00B63A30 /* Debug */,
+				F0EEBEC917DF144D00B63A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0EEBE9C17DF144D00B63A30 /* Project object */;
+}
