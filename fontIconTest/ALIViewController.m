@@ -81,8 +81,8 @@
     [self.view addSubview:label4];
     
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-    btn.frame = CGRectMake(20, 510, 280, 20);
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame = CGRectMake(20, 430, 150, 50);
     btn.titleLabel.font = [UIFont fontWithName:@"Untitled1" size:35];
     //btn.titleLabel = @"\U00000188 下载";
     [btn setTitle:@"\U00000188 下载" forState:UIControlStateNormal];

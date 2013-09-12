@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ALIViewController alloc] initWithNibName:@"ALIViewController" bundle:nil];
+    self.viewController = [[ALIViewController alloc] init];
     self.viewController.title = @"icon font";
     
     UINavigationController *navController = [[UINavigationController alloc] init];

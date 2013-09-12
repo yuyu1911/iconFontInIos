@@ -21,7 +21,6 @@
 		F0EEBEBC17DF144D00B63A30 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEBB17DF144D00B63A30 /* Default@2x.png */; };
 		F0EEBEBE17DF144D00B63A30 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEBD17DF144D00B63A30 /* Default-568h@2x.png */; };
 		F0EEBEC117DF144D00B63A30 /* ALIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EEBEC017DF144D00B63A30 /* ALIViewController.m */; };
-		F0EEBEC417DF144D00B63A30 /* ALIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBEC217DF144D00B63A30 /* ALIViewController.xib */; };
 		F0EEBECD17DF19FA00B63A30 /* uxiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0EEBECA17DF15B000B63A30 /* uxiconfont.ttf */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		F0EEBEBD17DF144D00B63A30 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F0EEBEBF17DF144D00B63A30 /* ALIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIViewController.h; sourceTree = "<group>"; };
 		F0EEBEC017DF144D00B63A30 /* ALIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIViewController.m; sourceTree = "<group>"; };
-		F0EEBEC317DF144D00B63A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALIViewController.xib; sourceTree = "<group>"; };
 		F0EEBECA17DF15B000B63A30 /* uxiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uxiconfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +95,6 @@
 				F0EEBEB717DF144D00B63A30 /* ALIAppDelegate.m */,
 				F0EEBEBF17DF144D00B63A30 /* ALIViewController.h */,
 				F0EEBEC017DF144D00B63A30 /* ALIViewController.m */,
-				F0EEBEC217DF144D00B63A30 /* ALIViewController.xib */,
 				F0EEBEAE17DF144D00B63A30 /* Supporting Files */,
 			);
 			path = fontIconTest;
@@ -180,7 +177,6 @@
 				F0EEBEBA17DF144D00B63A30 /* Default.png in Resources */,
 				F0EEBEBC17DF144D00B63A30 /* Default@2x.png in Resources */,
 				F0EEBEBE17DF144D00B63A30 /* Default-568h@2x.png in Resources */,
-				F0EEBEC417DF144D00B63A30 /* ALIViewController.xib in Resources */,
 				F0AD986D17E046CE00ABFE26 /* fontawesome-webfont.ttf in Resources */,
 				F0AD987117E04C8600ABFE26 /* KaushanScript-Regular.otf in Resources */,
 				F073B25317E1564C007CEFA4 /* fontello.ttf in Resources */,
@@ -209,14 +205,6 @@
 				F0EEBEB117DF144D00B63A30 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F0EEBEC217DF144D00B63A30 /* ALIViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0EEBEC317DF144D00B63A30 /* en */,
-			);
-			name = ALIViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
